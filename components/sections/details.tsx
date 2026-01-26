@@ -19,9 +19,8 @@ import React from "react";
 const Details = () => {
   const params = useSearchParams();
   const size = params.get("s") ?? "M";
-  const url = params.get("u") ?? "@sanshin.official";
+  const url = params.get("u") ?? "@sanshin.official";  
   const sf = params.get("sf") ?? "SanShin";
-  console.log("url", size);
 
   return (
     <div className="space-y-6 sm:space-y-8">
